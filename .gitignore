@@ -1,0 +1,14 @@
+*.log
+*.txt
+*.bak
+*.rar
+*.tar.gz
+*.zip
+*.conf
+*.swp
+*.swo
+*.ini
+/logs
+/node_modules
+/.idea
+*/bower_components/

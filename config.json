@@ -1,0 +1,25 @@
+{
+    "log" : {
+        "appenders" : {
+            "cron_task" : {
+                "type"     : "file",
+                "filename" : "/logs/cron_task.log"
+            }
+        },
+        "categories" : {
+            "default" : {
+                "appenders" : ["cron_task"],
+                "level"     : "info"
+            }
+        }
+    },
+    "mongo" : {
+        "cron_task" : {
+            "ip"       : "",
+            "port"     : "",
+            "db_name"  : "",
+            "user"     : "",
+            "password" : ""
+        }
+    }
+}
